@@ -3,7 +3,12 @@ $color: #ff5959;
 $bg-color: #e8e8e8;
 
 body {
-	font-family: Quicksand;
+	font-family: Quicksand, 'Open Sans', Arial;
+}
+input {
+	-webkit-appearance: none;
+	-webkit-border-radius:0; 
+    border-radius:0;
 }
 .team-contact-icons img {
 	display: inline;
